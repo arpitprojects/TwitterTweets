@@ -1,11 +1,14 @@
 # Twitter Re-Tweets #custserv
 
-This App shows the re-tweets with the hashtag #custserv 
+This App shows the re-tweets with the hashtag #custserv and retweeted at least once.
 
-## Getting Started
+## Try the Application
 
-Download the folder and set this in wamp/xampp and run index.html, make sure to use http://localhost/Twitter_Tweets/index.html.
-You can also use any server.
+```
+http://twitterretweet.herokuapp.com/
+```
+
+
 Or
 herokurl
 
