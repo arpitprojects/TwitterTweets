@@ -5,7 +5,7 @@ This App shows the re-tweets with the hashtag #custserv and retweeted at least o
 ## Try the Application
 
 ```
-http://twitterretweet.herokuapp.com/
+http://twitterrtweet.herokuapp.com/
 ```
 
 
