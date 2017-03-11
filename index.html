@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Twitter Tweets.
+        </title>
+        <!-- All meta Tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Tweeter Tweets"/>
+        <meta property="og:site_name" content="Tweeter tweet extracter"/>
+        <meta property="og:url" content="http://" />
+        <meta property="og:description" content="Get all the tweets that is retweeted and has #custserv"/>
+        <meta property="og:type" content="website" />
+        <meta property="article:author" content="https://www.facebook.com/mjarpitanand" />
+        <meta property="og:image" content="http://" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <!--End of all the Meta tags-->
+
+        <!--All icons-->
+        <link rel="stylesheet" href="vendors/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!--End of the all icons-->
+
+        <!-- All css-->
+        <link rel="stylesheet" href="resources/css/init.css"/>
+        <link rel="stylesheet" href="resources/css/main.css"/>
+        <!--End of All css-->
+
+        <!-- All Js-->
+        <script src="resources/js/script.js"></script>
+        <script src="resources/js/init.js"></script>
+        <!--End of All Js-->
+    </head>    
+    <body id="body">
+        <header>
+            <div class="row">
+                <div class="col">
+                    <div class="bar" id="menu" onclick="toggle()">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <center><i class="fa fa-twitter fa-2x" id="twitter-logo"></i></center>
+                    <div class="right">
+                        <p class="tag">Twitter Tweets</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <br /><br/>
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <br /><br /><br /><br />
+                <div class="close" onclick="toggle_close()"><i class="fa fa-close fa-lg"></i></div>
+                <ul class="sidebar-nav">
+                    <li>
+                        <p>Twitter Tweets Retweeted</p>
+                    </li>   
+                    <li>
+                        <p>Posted at least once.</p>
+                    </li>
+                    <br/>
+
+                </ul>
+            </div>
+        </div>
+        <div id="page-content-wrapper">
+            <br /><br />
+        </div>
+        
+    </body>
+</html>

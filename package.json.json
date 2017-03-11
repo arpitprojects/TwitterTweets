@@ -1,0 +1,11 @@
+{
+  "name": "twitter_tweets",
+  "version": "1.0.0",
+  "description": "An small web application, that fetch the twitter posts which has hashtag #custserv which is retweeted at least once.",
+  "main": "index.js",
+  "scripts": {
+    "test": "Nil"
+  },
+  "author": "Arpit Anand",
+  "license": "MIT"
+}
