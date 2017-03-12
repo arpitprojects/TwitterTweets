@@ -10,7 +10,7 @@ require_once('TwitterInit.php');
 $new_init = new TwitterInit("YbREqWRM6nV5uu8McBLy91fQH" ,"Jl6otpU4xgCwzfsCtM4yClfKqHtFHqCgQaoYbxN1ombviVNiSd" , "839898479023443968-cWO3StRAncTzmvBwklEdeONwRxlUumg","X5cpepjBU3XVL3Q98ofz23fCYMAILCvkkaItK6mDNppgj");
 
 //Taking the json outputed.
-$arr = $new_init->connect("%23custserv" , 50 , "typd");
+$arr = $new_init->connect("%23custserv" , 200 , "typd");
 
 //encoding the json from the Outputted above line.
 $arr =  json_encode($arr->statuses);
