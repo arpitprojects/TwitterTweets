@@ -1,6 +1,6 @@
 # Twitter Re-Tweets #custserv
 
-This App shows the re-tweets with the hashtag #custserv and retweeted at least once.
+This Web Application shows the Twitter tweets with the hashtag #custserv and retweeted at least once.
 
 ## Try the Application
 
@@ -8,66 +8,64 @@ This App shows the re-tweets with the hashtag #custserv and retweeted at least o
 http://twitterrtweet.herokuapp.com/
 ```
 
-
-Or
-herokurl
-
 ### Prerequisites
 
-In terms of app to run in local machine, we need Xampp/Wamp.
-
+Server required to run the app, can also be set up locally to check.
 
 ### Installing
 
 Steps
 
 ```
-Download the folder uploaded in provided link in email.
+Download the folder uploaded (provided link in email)
 ```
 
 ```
-Set it up with server e.g wamp, xampp, aws.
+Server setup.
 ```
 
 ```
 Run index.html
 ```
 
+Or Use below link to view:
 
-## Running the tests
-
-Backend codes are in FOLDER- /core , which users the Twitter SDK which is taken from dev section of official twitter site.
-
-### Break down into end to end tests
-
-Front end and back-end are on different folder so that a standard , modular code practice can be adopted.
+```
+http://twitterrtweet.herokuapp.com/
+```
 
 
-## Deployment
+## Details of the Applications.
 
-Add additional notes about how to deploy this on a live system
+Backend codes are in FOLDER- /core which has two files- TwitterInit.php and index.php
+
+TwitterInit.php that has classes which initializes the TwitterSDK, from https://dev.twitter.com/resources/twitter-libraries
+
+Index.php outputs the json to be used in front end.
+
 
 ## Built With
 
-This project does not have any type of framework used:
-Every design, responsiveness, is done with 
-HTML5, CSS3, JAVASCRIPT, PHP, TWITTER SDK 
+Project does not have any type of framework used.
+
+A font awesome cdn for the icons.
+
+Web Application is built on, HTML, CSS 3, JavaScript , PHP ,TwitterOauthSDK.  
 
 
 ## Versioning
 
-(https://github.com/your/project/tags). 
+https://github.com/arpitprojects/TwitterTweets
 
 ## Authors
 
 * **Arpit Anand** 
-* (https://github.com/arpitprojects).
+* https://arpitanand.tk
+
+## Contribution
+
+None
 
 ## License
 
 Nil
-
-## Acknowledgments
-
-* Nil
-

@@ -1,26 +1,32 @@
-
+/*Remove all the browser CSS, Example remove all the margin, padding, font, spacing etc*/
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+/*Standard line height */
 body {
     line-height: 1;
 }
+/*Remove the ol,ul style dot etc */
 ol, ul {
     list-style: none;
 }
+/*HTML blockquote line and border etc */
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+/*Html table css */
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/*Remove all the browser tags css */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,3 +47,4 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+/*End of all the tags css*/

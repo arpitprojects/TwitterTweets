@@ -1,9 +1,12 @@
+/*CSS body html, font-family*/
+
 body,html{
     font-family: 'Lato' , sans-serif;
     background-color: #f5f8fa!important;
     position: relative;
     z-index: -1;
 }
+/*header design*/
 header{
     background-color:#0084B4;
     width:100%;
@@ -48,7 +51,7 @@ header{
 }
 
 #sidebar-wrapper {
-   
+
     position: fixed;
     left: 250px;
     width: 0;
@@ -162,6 +165,8 @@ header{
 #toogle{
     color:white !important;
 }
+/*Single POST design, of avatar image , icons color font sizes */
+
 .avatar img{
     height:50px;
     width:50px;
@@ -177,7 +182,7 @@ header{
     font-size:14px;
     line-height: 18px;
     background-color: #fff;
-    
+
 }
 .user-line li{
     display: inline-block;
@@ -206,7 +211,7 @@ header{
     color:#0084B4;
     font-size:16px;
     font-weight:600;
-    
+
 }
 .post_content a{
     color:#0084B4;
@@ -220,13 +225,6 @@ header{
 #rep{
     color:#3b5998;
 }
-.sidebar-nav{
-    margin-top:90px;
-    font-family: 'Lato' ,sans-serif;
-    font-size: 16px;
-    color:#fff;
-    
-}
 #showblock{
     display: none;
 }
@@ -236,7 +234,46 @@ header{
     margin-right: 10px;
     cursor: pointer;
 }
+
+#name{
+    margin-top:4px;
+    font-weight:700;
+}
+#session_name{
+    font-weight:600;
+}
+.time{
+    float:right;
+    font-weight:700;
+    font-family: 'Lato' , sans-serif;
+    font-size:14px;
+}
+/*End Of Single POST design, of avatar image , icons color font sizes */
+.sidebar-nav{
+    margin-top:90px;
+    font-family: 'Lato' ,sans-serif;
+    font-size: 16px;
+    color:#fff;
+
+}
+/*Side Nav codes*/
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clearfix{
+    clear:both;
+    display: block;
+}
 .pagination{
     width:50%;
     margin:0 auto;
+    background-color:transparent;
+    border:0;
+
+}
+.pagination button{
+    
 }
